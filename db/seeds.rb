@@ -41,7 +41,7 @@ Emoticon.create!([
   {image: "V●ᴥ●V", name: "dog"},
   {image: "／(=´x`=)＼", name: "rabbit"}
 ])
-# byebug
+
 Hashtag.create!([
   {name: "Because_ilikeit"},
   {name: "Because_whynot"},
@@ -94,21 +94,21 @@ ActiveStorage::Blob.create!([
 ])
 
 ActiveStorage::Attachment.create!([
-  {name: "image", record_type: "User", record_id: 1, blob_id: 2},
-  {name: "image", record_type: "Post", record_id: 1, blob_id: 3},
-  {name: "image", record_type: "Post", record_id: 2, blob_id: 4},
-  {name: "image", record_type: "User", record_id: 2, blob_id: 5},
-  {name: "image", record_type: "Post", record_id: 3, blob_id: 6},
-  {name: "image", record_type: "User", record_id: 3, blob_id: 7},
-  {name: "image", record_type: "Post", record_id: 4, blob_id: 8},
-  {name: "image", record_type: "User", record_id: 4, blob_id: 9},
-  {name: "image", record_type: "Post", record_id: 5, blob_id: 10},
-  {name: "image", record_type: "User", record_id: 5, blob_id: 11},
-  {name: "image", record_type: "Post", record_id: 6, blob_id: 12},
-  {name: "image", record_type: "User", record_id: 6, blob_id: 13},
-  {name: "image", record_type: "Post", record_id: 7, blob_id: 14},
-  {name: "image", record_type: "User", record_id: 7, blob_id: 15},
-  {name: "image", record_type: "Post", record_id: 8, blob_id: 16},
-  {name: "image", record_type: "Post", record_id: 9, blob_id: 17},
-  {name: "image", record_type: "Post", record_id: 10, blob_id: 18}
+  {name: "image", record_type: "User", record_id: 1, blob_id: 1},
+  {name: "image", record_type: "Post", record_id: 1, blob_id: 2},
+  {name: "image", record_type: "Post", record_id: 2, blob_id: 3},
+  {name: "image", record_type: "User", record_id: 2, blob_id: 4},
+  {name: "image", record_type: "Post", record_id: 3, blob_id: 5},
+  {name: "image", record_type: "User", record_id: 3, blob_id: 6},
+  {name: "image", record_type: "Post", record_id: 4, blob_id: 7},
+  {name: "image", record_type: "User", record_id: 4, blob_id: 8},
+  {name: "image", record_type: "Post", record_id: 5, blob_id: 9},
+  {name: "image", record_type: "User", record_id: 5, blob_id: 10},
+  {name: "image", record_type: "Post", record_id: 6, blob_id: 11},
+  {name: "image", record_type: "User", record_id: 6, blob_id: 12},
+  {name: "image", record_type: "Post", record_id: 7, blob_id: 13},
+  {name: "image", record_type: "User", record_id: 7, blob_id: 14},
+  {name: "image", record_type: "Post", record_id: 8, blob_id: 15},
+  {name: "image", record_type: "Post", record_id: 9, blob_id: 16},
+  {name: "image", record_type: "Post", record_id: 10, blob_id: 17}
 ])

@@ -16,7 +16,7 @@ class User < ApplicationRecord
     # validations
     validates :username, presence: true, uniqueness: {case_sensitive: true, message: "username must be unique, this one is taken." }
     validates :name, presence: true
-    validates :image, presence: true
+    # validates :image, presence: true
     
     has_secure_password
 

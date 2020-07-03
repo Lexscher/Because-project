@@ -27,7 +27,7 @@ class Post < ApplicationRecord
     validates :content, presence: true, if: :because?, unless: -> { content.include?('?')} 
     validates :content, length: { minimum: 250 , unless: -> { content.include?('?')}, message: "A post must contain at least 250 characters, or include a question mark."}
     
-    validates :image, presence: true
+    # validates :image, presence: true
     # must be created with emoticon_id, but FK acts as validation
     
     
